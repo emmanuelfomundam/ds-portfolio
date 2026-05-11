@@ -13,17 +13,17 @@ End-to-end data science projects spanning data engineering, machine learning, NL
 
 | # | Project | Techniques | Dataset | Key Result |
 |---|---------|-----------|---------|------------|
-| 01 | [EDA & Data Cleaning Pipeline](#01--eda--data-cleaning-pipeline) | Pandas, OOP Pipeline, Seaborn | IBM HR Analytics (1,470 records) | Fully automated 7-step cleaning workflow |
-| 02 | [Customer Churn Classifier](#02--customer-churn-classifier) | XGBoost, SMOTE, GridSearchCV | Telco Churn (7,043 records) | ROC-AUC **0.9344** via 5-fold CV |
-| 03 | [Sales Time Series Forecaster](#03--sales-time-series-forecaster) | ARIMA, XGBoost, Lag Features | Rossmann Store Sales (844K records) | RMSE **985** vs 3,608 ARIMA baseline |
-| 04 | [Text Sentiment Analyzer](#04--text-sentiment-analyzer) | TF-IDF, NLP, Streamlit | Amazon Fine Food Reviews (100K) | **82% accuracy**, live Streamlit app |
-| 05 | [Recommendation Engine](#05--recommendation-engine) | SVD, Collaborative Filtering, Hybrid | MovieLens 1M (32M ratings) | CV RMSE **0.8783**, MAE **0.6647** |
+| 01 | [EDA & Data Cleaning Pipeline](https://github.com/emmanuelfomundam/eda-data-cleaning-pipeline) | Pandas, OOP Pipeline, Seaborn | IBM HR Analytics (1,470 records) | Fully automated 7-step cleaning workflow |
+| 02 | [Customer Churn Classifier](https://github.com/emmanuelfomundam/customer-churn-classifier) | XGBoost, SMOTE, GridSearchCV | Telco Churn (7,043 records) | ROC-AUC **0.9344** via 5-fold CV |
+| 03 | [Sales Time Series Forecaster](https://github.com/emmanuelfomundam/sales-time-series-forecaster) | ARIMA, XGBoost, Lag Features | Rossmann Store Sales (844K records) | RMSE **985** vs 3,608 ARIMA baseline |
+| 04 | [Text Sentiment Analyzer](https://github.com/emmanuelfomundam/text-sentiment-analyzer) | TF-IDF, NLP, Streamlit | Amazon Fine Food Reviews (100K) | **82% accuracy**, live Streamlit app |
+| 05 | [Recommendation Engine](https://github.com/emmanuelfomundam/recommendation-engine) | SVD, Collaborative Filtering, Hybrid | MovieLens 1M (32M ratings) | CV RMSE **0.8783**, MAE **0.6647** |
 
 ---
 
 ## 01 — EDA & Data Cleaning Pipeline
 
-**[→ Project Folder](01_eda_cleaning_pipeline/)**
+**[→ GitHub Repo](https://github.com/emmanuelfomundam/eda-data-cleaning-pipeline)**
 
 A production-style, reusable data cleaning and exploratory analysis pipeline built for business reporting use cases.
 
@@ -39,7 +39,7 @@ A production-style, reusable data cleaning and exploratory analysis pipeline bui
 
 ## 02 — Customer Churn Classifier
 
-**[→ Project Folder](02_customer_churn_classifier/)**
+**[→ GitHub Repo](https://github.com/emmanuelfomundam/customer-churn-classifier)**
 
 A binary classification model to predict telecom customer churn, with a focus on handling class imbalance and maximizing recall on the minority (churn) class.
 
@@ -57,7 +57,7 @@ A binary classification model to predict telecom customer churn, with a focus on
 
 ## 03 — Sales Time Series Forecaster
 
-**[→ Project Folder](03_sales_forecaster/)**
+**[→ GitHub Repo](https://github.com/emmanuelfomundam/sales-time-series-forecaster)**
 
 A multi-model sales forecasting system comparing an ARIMA statistical baseline against a feature-rich XGBoost regressor on real-world retail data at scale.
 
@@ -75,7 +75,7 @@ A multi-model sales forecasting system comparing an ARIMA statistical baseline a
 
 ## 04 — Text Sentiment Analyzer
 
-**[→ Project Folder](04_sentiment_analyzer/)**
+**[→ GitHub Repo](https://github.com/emmanuelfomundam/text-sentiment-analyzer)**
 
 A 3-class sentiment classifier (positive / neutral / negative) trained on Amazon product reviews, with a live Streamlit web app for real-time inference.
 
@@ -93,7 +93,7 @@ A 3-class sentiment classifier (positive / neutral / negative) trained on Amazon
 
 ## 05 — Recommendation Engine
 
-**[→ Project Folder](05_recommendation_engine/)**
+**[→ GitHub Repo](https://github.com/emmanuelfomundam/recommendation-engine)**
 
 A four-mode hybrid recommendation system built on MovieLens data, combining collaborative filtering, content-based filtering, SVD matrix factorization, and a cold-start popularity fallback.
 
